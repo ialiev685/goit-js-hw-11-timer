@@ -1,0 +1,28 @@
+.timer {
+  display: flex;
+  justify-content: center;
+
+  margin: 50px auto 0px;
+
+  width: 500px;
+
+  background-color: rgb(0, 0, 0, 0.8);
+
+  border-radius: 5px;
+}
+
+.field:not(:last-child) {
+  margin-right: 10px;
+}
+
+.value,
+.label {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 48px;
+
+  color: aliceblue;
+}
+
+.label {
+  font-size: 16px;
+}
