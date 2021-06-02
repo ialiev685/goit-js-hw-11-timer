@@ -36,7 +36,6 @@ class CountdownTimer {
   }
 
   getTimeComponents(time) {
-    console.log(time);
     const days = this.makeDoubleDigit(Math.floor(time / (1000 * 60 * 60 * 24)));
     const hours = this.makeDoubleDigit(
       Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
