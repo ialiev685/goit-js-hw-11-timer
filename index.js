@@ -5,6 +5,8 @@ class CountdownTimer {
 
     this.countDown = false;
     this.intervalId = null;
+
+    this.start();
   }
 
   start() {
@@ -65,5 +67,3 @@ const timer = new CountdownTimer({
   selector: "#timer-1",
   targetDate: new Date("Jun 06, 2021"),
 });
-
-timer.start();
